@@ -22,7 +22,7 @@ class Author
   end
   
   def self.post_count
-    Post.all.count {|post| post.author == author}
+    Post.all.count
   end
   
 end
